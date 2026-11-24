@@ -1,27 +1,31 @@
 # GitHub User Explorer
 
-A React application that allows users to search for GitHub profiles and explore their public repositories using the GitHub REST API.
+A responsive React application that allows users to search for GitHub profiles and explore their public repositories using the GitHub REST API.
+
+**[Live Demo](https://github-user-explorer-teal.vercel.app/)**
 
 ## Overview
 
-GitHub User Explorer provides a simple and responsive interface for discovering GitHub users and viewing their public profile information and repositories.
+GitHub User Explorer provides a simple and responsive interface for discovering GitHub users and exploring their public profile information and repositories.
 
 The project was built to practice React fundamentals, component-based architecture, API integration, and state management.
 
 ## Features
 
 - Search for GitHub users by username.
-- Display user profile information.
+- Display GitHub user profile information.
 - View profile statistics.
 - Fetch and display public repositories.
 - Handle loading, error, and empty states.
 - Responsive user interface.
 
+
+
 ## Tech Stack
 
 - **React** – Building the user interface.
 - **JavaScript (ES6+)** – Application logic.
-- **Tailwind CSS** – Utility-first styling and responsive design.
+- **Tailwind CSS** – Styling and responsive design.
 - **Vite** – Development server and build tool.
 - **GitHub REST API** – Fetching user and repository data.
 
@@ -85,10 +89,9 @@ This project uses the [GitHub REST API](https://docs.github.com/en/rest) to retr
 ## Future Improvements
 
 - Add pagination for repositories.
-- Add repository sorting and filtering.
-- Improve error handling.
-- Add more profile details.
-- Deploy the application.
+- Implement repository sorting and filtering.
+- Improve error handling and user feedback.
+- Display additional GitHub profile information.
 
 ## Author
 
@@ -98,4 +101,4 @@ This project uses the [GitHub REST API](https://docs.github.com/en/rest) to retr
 
 ---
 
-*Built as a learning project to strengthen React and Front-End Development skills.*
+Built as a learning project to strengthen React and Front-End Development skills.
